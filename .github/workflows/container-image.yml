@@ -6,7 +6,7 @@ jobs:
     name: Push Docker image to GitHub Container Registry
     runs-on: ubuntu-latest
     env:
-      PACKAGE_NAME: app-state-diagram
+      PACKAGE_NAME: app-state-diagram-test
       VERSION_NAME: latest
     steps:
       - name: Check out the repo
